@@ -8,16 +8,16 @@ app:
   # 应用目录 默认. 代表程序允许目录
   app_path: .
   # 程序对外访问的网址
-  http_server_url: "http://localhost:9090"
+  http_server_url: "http://127.0.0.1:9090"
   # 程序监听的端口，如不使用Nginx 则写 80 或 443，否则 请反向代理到 规定端口
   http_port: 9090
 
 # JWT加密验签
 jwt:
   # 后台密钥
-  secret: "Account-Mall"
+  secret: "Account-Mall-Orzice"
   # 前台密钥
-  secret_user: "124wdthds345"
+  secret_user: "Orzice-124wdthds345"
 
 # 数据库配置
 database:
@@ -51,9 +51,9 @@ email:
   fromEmail: 111111@163.com
   insecureSkipVerify: true
 grpc:
-    token: xV0f4c3sRF&Mn5aXPpF6ITIAAMm%CKF8
-    ip_list:
-      - ip: ::1
-      - ip: localhost
-      - ip: 127.0.0.1
-      - ip: 127.0.0.2
+  token: xV0f4c3sRF&3n5aXPpF4ITIAAMm%CKF8
+  ip_list:
+    - ip: ::1
+    - ip: localhost
+    - ip: 127.0.0.1
+    - ip: 127.0.0.2

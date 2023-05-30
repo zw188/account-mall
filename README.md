@@ -33,6 +33,10 @@
 -  Redis
 -  Nginx / Apache
 
+### 支持的操作系统
+- Windows 64位 （32位系统不支持）
+- Linux
+- MacOS
 
 ## 🎨 特性
 - 多平台适配，仅需 Mysql 即可搭建！（自己家的电脑也能搭建哟~）
